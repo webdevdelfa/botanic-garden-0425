@@ -1,0 +1,44 @@
+.hero {
+    padding: 56px 0px 115px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    padding-top: 225px;
+    max-width: 528px;
+    flex: 1;
+}
+
+.hero__title {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 400;
+    font-size: 57px;
+    text-transform: capitalize;
+    color: #343d33;
+    margin-bottom: 16px;
+}
+
+.hero__subtitle {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #414840;
+    margin-bottom: 32px;
+}
+
+.hero__btns {
+    display: flex;
+    column-gap: 16px;
+}
+
+.hero__image {
+    width: 478px;
+    flex-shrink: 0;
+}
+
+.hero__pic {}

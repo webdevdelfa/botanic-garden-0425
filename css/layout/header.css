@@ -1,0 +1,44 @@
+.header {
+    padding: 14px 0px;
+}
+
+.menu {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    flex-shrink: 0;
+}
+
+.nav {}
+
+.header__nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav__item {}
+
+.nav__link {
+    color: #414840;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.nav__link.active {
+    color: #475f45;
+}
+
+.nav__link:hover {
+    border-bottom-color: currentColor;
+}
